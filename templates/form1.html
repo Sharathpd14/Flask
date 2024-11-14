@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks Form</title>
+</head>
+<body>
+
+    <h2>Enter Marks for Subjects</h2>
+    <form action="/submit" method="post">
+        <!-- Subject 1 Marks -->
+        <label for="subject1">Subject 1:</label><br>
+        <input type="number" id="subject1" name="subject1" min="0" max="100" required><br><br>
+        
+        <!-- Subject 2 Marks -->
+        <label for="subject2">Subject 2:</label><br>
+        <input type="number" id="subject2" name="subject2" min="0" max="100" required><br><br>
+
+        <!-- Subject 3 Marks -->
+        <label for="subject3">Subject 3:</label><br>
+        <input type="number" id="subject3" name="subject3" min="0" max="100" required><br><br>
+
+        <!-- Subject 4 Marks -->
+        <label for="subject4">Subject 4:</label><br>
+        <input type="number" id="subject4" name="subject4" min="0" max="100" required><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit Marks">
+    </form>
+
+</body>
+</html>
